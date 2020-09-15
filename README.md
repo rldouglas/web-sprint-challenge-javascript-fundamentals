@@ -32,16 +32,17 @@ executes a callback function in an array in order-- .map returns a new array
 A higher-order function is a function that takes another function as an argument and returns a function to its callers. A callback function is a function that is passed to another function with the expectation that the other function will call it
 
 3. What is closure?
-a combo of a bundle of functions
+when a function has access to data outside the scope there is closure between that function and data
 
 4. Describe the four rules of the 'this' keyword.
 Is the function called by new?
 Is the function called by call(), apply(), or bind()
 Is the function called as a method, 
-Is the function called in the global scope?\
+Is the function called in the global scope?
 
 5. Why do we need super() in an extended class?
 to call its parent’s constructor and  to access its parent’s methods
+the super passes the ar
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 

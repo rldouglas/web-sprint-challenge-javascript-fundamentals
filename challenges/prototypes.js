@@ -24,7 +24,7 @@ class CuboidMaker {
   Formula for cuboid volume: length * width * height
 */
 volume() {
-  return this.length*this.width*this.height;
+  return this.length * this.width * this.height;
 }
 
   
