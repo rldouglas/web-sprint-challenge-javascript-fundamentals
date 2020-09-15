@@ -14,8 +14,11 @@ volume() {
   return this.length * this.width * this.height;
 }
 
-surfaceArea() 
-  return 2*(this.length * this.width + this.length * this.height + this.width * this.height)
+surfaceArea() {
+  return 2 * this.width * this.height + this.length * this.width + this.length * this.height
+}
+
+
 }
   const cuboid = new CuboidMaker (
    CuboidMaker(4, 5, 5);
