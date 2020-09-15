@@ -6,7 +6,7 @@ class CuboidMaker {
       this.width = width;
       this.height = height;
   }
-  }
+  
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
 
@@ -16,7 +16,7 @@ volume() {
 
 surfaceArea() 
   return 2*(this.length * this.width + this.length * this.height + this.width * this.height)
-
+}
   const cuboid = new CuboidMaker (
    CuboidMaker(4, 5, 5);
 
